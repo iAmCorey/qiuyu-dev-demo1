@@ -24,7 +24,7 @@ import styles from './DecoderText.module.css';
 //   'パ', 'ピ', 'プ', 'ペ', 'ポ',
 // ];
 
-const glyphs = '中国广东深圳邱煜银行金融系统微信小程序后端开发'.split('')
+const glyphs = '中国广东深圳邱煜银行金融系统微信小程序后端开发'.split('');
 
 
 const CharType = {
