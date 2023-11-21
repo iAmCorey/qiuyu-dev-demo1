@@ -21,10 +21,11 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
+      Hi, I’m QiuYu, graduated from{' '} <Link href="https://www.sustech.edu.cn/">SUSTech</Link>, 
+      work as a software development engineer in China, Shenzhen at{' '}
+      <Link href="http://www3.ccb.com/sz/cn/index.html">CCB</Link>. 
+      Mainly use technical framework includes Java(Spring WEB, Spring Cloud, Spring Boot), WeChat-Minprogram developing(JavaScript, WXML, WXSS), database(MySQL, Oracle), etc.
+      If you’re interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
@@ -84,7 +85,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="My selfie"
                 />
                 <svg
                   aria-hidden="true"
