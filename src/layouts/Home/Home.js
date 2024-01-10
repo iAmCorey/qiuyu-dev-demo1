@@ -68,9 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Hello World"
-        description="Design portfolio of QiuYu — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        title="Software Engineer, Blogger, Photographer"
+        description="A software engineer, blogger, and photographer with a passion for technology, travel, and food."
       />
       <Intro
         id="intro"
@@ -79,17 +78,18 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
-        id="project-1"
+        id="stly-li"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Private, Stealthy Link Generator for Secure Browsing. "
+        description="Private, reliable, stealthy link generator for secure, anonymous browsing. Create anonymous links with no-referrer."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        // buttonLink="/projects/stly-li"
+        buttonLink="https://stly.li"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Private, Stealthy Link Generator',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],

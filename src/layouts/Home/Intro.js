@@ -65,11 +65,11 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
             <DisplacementSphere />
             <header className={styles.text}>
               <h1 className={styles.name} data-visible={visible} id={titleId}>
-                <DecoderText text="Hello, I'm QiuYu" delay={300} />
+                <DecoderText text="Hello, this is Corey Chiu" delay={300} />
               </h1>
               <Heading level={0} as="h2" className={styles.title}>
                 <VisuallyHidden className={styles.label}>
-                  {`Designer + ${introLabel}`}
+                  {`Engineer + ${introLabel}`}
                 </VisuallyHidden>
                 <span aria-hidden className={styles.row}>
                   <span
@@ -77,7 +77,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                     data-status={status}
                     style={cssProps({ delay: tokens.base.durationXS })}
                   >
-                    Developer
+                    Software Engineer
                   </span>
                   <span className={styles.line} data-status={status} />
                 </span>
@@ -107,7 +107,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                 </div>
               </Heading>
             </header>
-            <RouterLink href="/#project-1">
+            <RouterLink href="/#stly-li">
               <a
                 className={styles.scrollIndicator}
                 data-status={status}
@@ -117,7 +117,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                 <VisuallyHidden>Scroll to projects</VisuallyHidden>
               </a>
             </RouterLink>
-            <RouterLink href="/#project-1">
+            <RouterLink href="/#stly-li">
               <a
                 className={styles.mobileScrollIndicator}
                 data-status={status}
